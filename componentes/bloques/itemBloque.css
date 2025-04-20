@@ -1,0 +1,30 @@
+.bloque {
+    border: 2px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .bloque button {
+    margin: 0.25rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #333;
+    background-color: #eee;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .bloque button:hover {
+    background-color: #ddd;
+  }
+  
+  .bloque button:first-child {
+    margin-right: 0.5rem;
+  }
+  
